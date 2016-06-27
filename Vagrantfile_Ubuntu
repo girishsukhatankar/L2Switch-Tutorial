@@ -34,10 +34,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     f23_rpm_be_sr2.vm.network "forwarded_port", guest: 8181, host: 8181
 
    
-
-
-
-
     #f23_rpm_be_sr2.vm.provision "shell", inline: "dnf install -y sudo dnf install java-1.8.0-openjdk"
 
  
